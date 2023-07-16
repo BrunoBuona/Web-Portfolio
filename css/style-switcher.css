@@ -56,7 +56,8 @@
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
 }
 .style-switcher .colors span
 {
@@ -67,21 +68,14 @@
 }
 .style-switcher .color-1
 {
-    background: #ec1839;
+    background: #9e61ff;
 }
 .style-switcher .color-2
 {
-    background: #fa5b0f;
+    background: #1f979b;
 }
 .style-switcher .color-3
 {
-    background: #37b182;
+    background: #d340a2;
 }
-.style-switcher .color-4
-{
-    background: #1854b4;
-}
-.style-switcher .color-5
-{
-    background: #f021b2;
-}
+

@@ -1,6 +1,6 @@
 /* ============================== typing animation ============================ */
 var typed = new Typed(".typing",{
-    strings:["Web Developer","IT Teacher", "Freelancer", "Youtuber"],
+    strings:["Desarrollador Web","Docente IT", "Freelancer"],
     typeSpeed:100,
     BackSpeed:40,
     loop:true
@@ -22,7 +22,6 @@ const nav = document.querySelector(".nav"),
                   if(navList[j].querySelector("a").classList.contains("active"))
                   {
                       addBackSection(j);
-                     // allSection[j].classList.add("back-section");
                   }
                   navList[j].querySelector("a").classList.remove("active");
               }
@@ -69,7 +68,6 @@ const nav = document.querySelector(".nav"),
       document.querySelector(".hire-me").addEventListener("click", function()
       {
           const sectionIndex = this.getAttribute("data-section-index");
-          //console.log(sectionIndex);
           showSection(this);
           updateNav(this);
           removeBackSection();
